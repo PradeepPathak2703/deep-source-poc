@@ -1,0 +1,13 @@
+version = 1
+
+exclude_patterns = [
+  "/home/form-submission-handler.js",
+  "/todo/**"
+]
+
+[[analyzers]]
+name = "java"
+enabled = true
+
+  [analyzers.meta]
+  runtime_version = "8"
