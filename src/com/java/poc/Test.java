@@ -16,8 +16,8 @@ public class Test {
 		
 		List<String> lstStr = null;
 		
-		for(int i = 1 ; i> 5 ; i++) {
-			lstStr = new ArrayList<>();
+		for (String str : lstStr) {
+			System.out.println(str);
 		}
 		
 	}
