@@ -6,6 +6,28 @@ exclude_patterns = [
 ]
 
 [[analyzers]]
+name = "scala"
+enabled = true
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+[[analyzers]]
+name = "go"
+enabled = true
+
+  [analyzers.meta]
+  import_root = "github.com/PradeepPathak2703/deep-source-poc"
+
+[[analyzers]]
+name = "python"
+enabled = true
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
 name = "java"
 enabled = true
 
